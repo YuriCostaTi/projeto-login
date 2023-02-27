@@ -26,6 +26,10 @@ main {
     width: 10vw;
 }
 
+ p {
+    margin: 5px;
+}
+
 section#login {
     position: absolute;
     top: 50%;
@@ -39,6 +43,10 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.567);
+    /* suavizar o movimento de tela */
+    transition: width .3s, height .3s;
+    /* suavizar ainda mais o movimento */
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
