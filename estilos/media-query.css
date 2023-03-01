@@ -15,11 +15,11 @@
         font-size: 1em;
         width: calc(70% + 85.2px);
         /* width */
-        height: 100%;
-        transform: translateY(-12.3px);
+        
         border: 0px;
         border-radius: 8px;
-        padding: 4px;
+        padding: 4px;height: 100%;
+        transform: translateY(-12.3px);
     }
 
     section#login > div#imagem {
@@ -69,10 +69,11 @@
         width: calc(70% + 95px);
         /* width */
         height: 100%;
-        transform: translateY(-12px);
+    
         border: 0px;
         border-radius: 8px;
         padding: 4px;
+        transform: translateY(-12px);
     }
 
     div#formulario > h1{
