@@ -7,6 +7,19 @@
 
     section#login {
         width: 80vw;
+        height: 282px;
+    }
+
+    div.campo > input {
+        background-color: #94cfcd;
+        font-size: 1em;
+        width: calc(70% + 85.2px);
+        /* width */
+        height: 100%;
+        transform: translateY(-12.3px);
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
     }
 
     section#login > div#imagem {
@@ -36,6 +49,7 @@
 
     section#login {
         width: 950px;
+        height: 322px;
     }
 
     section#login > div#imagem {
@@ -47,6 +61,18 @@
     section#login > div#formulario {
         float: left;
         width: 50%;
+    }
+
+    div.campo > input {
+        background-color: #94cfcd;
+        font-size: 1em;
+        width: calc(70% + 95px);
+        /* width */
+        height: 100%;
+        transform: translateY(-12px);
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
     }
 
     div#formulario > h1{
